@@ -22,6 +22,8 @@
 		07DF595719931C450020B27D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DF593619931C450020B27D /* UIKit.framework */; };
 		07DF595F19931C450020B27D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07DF595D19931C450020B27D /* InfoPlist.strings */; };
 		07DF596119931C450020B27D /* Unit_TestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DF596019931C450020B27D /* Unit_TestingTests.m */; };
+		07DF596D19931C750020B27D /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DF596C19931C750020B27D /* MyObject.m */; };
+		07DF596F19931C9D0020B27D /* MyObject_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DF596E19931C9D0020B27D /* MyObject_Tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		07DF595C19931C450020B27D /* Unit TestingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unit TestingTests-Info.plist"; sourceTree = "<group>"; };
 		07DF595E19931C450020B27D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07DF596019931C450020B27D /* Unit_TestingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unit_TestingTests.m; sourceTree = "<group>"; };
+		07DF596B19931C750020B27D /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		07DF596C19931C750020B27D /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
+		07DF596E19931C9D0020B27D /* MyObject_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject_Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +119,11 @@
 		07DF593819931C450020B27D /* Unit Testing */ = {
 			isa = PBXGroup;
 			children = (
+				07DF596B19931C750020B27D /* MyObject.h */,
+				07DF596C19931C750020B27D /* MyObject.m */,
 				07DF596A19931C4E0020B27D /* Stuff */,
 				07DF593919931C450020B27D /* Supporting Files */,
+				07DF596E19931C9D0020B27D /* MyObject_Tests.m */,
 			);
 			path = "Unit Testing";
 			sourceTree = "<group>";
@@ -264,6 +272,7 @@
 			files = (
 				07DF594C19931C450020B27D /* PCSViewController.m in Sources */,
 				07DF593F19931C450020B27D /* main.m in Sources */,
+				07DF596D19931C750020B27D /* MyObject.m in Sources */,
 				07DF594319931C450020B27D /* PCSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07DF596F19931C9D0020B27D /* MyObject_Tests.m in Sources */,
 				07DF596119931C450020B27D /* Unit_TestingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
