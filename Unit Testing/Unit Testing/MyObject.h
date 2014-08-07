@@ -18,4 +18,11 @@
  */
 + (NSInteger)addFour:(NSInteger)number;
 
+/**
+ *  Gets the string at any given index from the secret array
+ *
+ *  @param  index of string to get
+ *  @return string at that index... probably
+ */
+- (NSString *)stringAtIndex:(NSInteger)index;
 @end

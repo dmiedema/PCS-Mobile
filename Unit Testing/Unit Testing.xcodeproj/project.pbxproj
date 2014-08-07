@@ -121,9 +121,9 @@
 			children = (
 				07DF596B19931C750020B27D /* MyObject.h */,
 				07DF596C19931C750020B27D /* MyObject.m */,
+				07DF596E19931C9D0020B27D /* MyObject_Tests.m */,
 				07DF596A19931C4E0020B27D /* Stuff */,
 				07DF593919931C450020B27D /* Supporting Files */,
-				07DF596E19931C9D0020B27D /* MyObject_Tests.m */,
 			);
 			path = "Unit Testing";
 			sourceTree = "<group>";
