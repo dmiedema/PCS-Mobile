@@ -7,6 +7,8 @@ Portland Code School Mobile stuff
 #Course Introduction, Overview of iOS and MVC
 
 ###Read over course outline.
+We will be covering everything you need to take an app from concept to the app store. We will start with basic iOS, Objective-C, Xcode, and software development fundamentals. Next we will cover the various elements and building blocks that you need to create most of the app screens you will work with. Lastly we will break up into small teams to come up with a basic app and build it from start to finish. 
+We will be covering the tools that are essential to have. The iOS SDK has so many amazing tools like blu-tooth, gaming libraries, social sdks, widgets, and extensions that won’t be covered because these are great tools but not every job requires them. In order to make you into a great developer, we will teach the tools that are the most widely used so you can put all the skills you learn into practice.
 
 ### What is iOS?
 iOS is Apples mobile operating system for iPad and iPhone and iPod Touch. iOS was initially created for the iPhone release in 2007. iOS in 2007 had some commonalities with OSX but not much cross over. iOS continues to be updated to include new feature and to bring it more in line with OSX and OSX in line with iOS. iOS is the Operating System that controls everything on an iPhone from UI presentation to inter-app communciation to memory managemnet. The goal is over to bring OSX and iOS so close together that there is no real difference in the platforms.
