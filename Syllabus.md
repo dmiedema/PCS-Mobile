@@ -1,7 +1,7 @@
 # Syllabus for Portland Code School Mobile
 
 ## 1. Course Introduction, Overview of iOS and MVC *2 Sep 2014*
-   * Plan
+  * Plan
     * Read over course outline.
     * What is iOS?
     * MVC pattern in iOS
