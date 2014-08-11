@@ -30,7 +30,29 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKE-ev-EMJ">
+                                <rect key="frame" x="84" y="518" width="153" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Push Somewhere Else">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y8G-Ge-FYE">
+                                <rect key="frame" x="69" y="269" width="183" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Change Background Color">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="zKE-ev-EMJ" secondAttribute="centerX" id="2Qp-x9-F74"/>
+                            <constraint firstAttribute="centerX" secondItem="y8G-Ge-FYE" secondAttribute="centerX" id="AWf-A4-9WX"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="zKE-ev-EMJ" secondAttribute="bottom" constant="20" id="bLf-ld-adn"/>
+                            <constraint firstAttribute="centerY" secondItem="y8G-Ge-FYE" secondAttribute="centerY" id="eps-75-Rcw"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="AGp-nx-Jfp"/>
                 </viewController>
