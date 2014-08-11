@@ -3,8 +3,35 @@ PCS-Mobile
 
 Portland Code School Mobile stuff
 
-## Structure
+## Developer Portal and xCode Basics
+In this class we will cover the apple developer portal and xcode basics. The apple developer portal is one of the most upsetting and frustrating parts of development but it is the most important piece. Apple is big on security so there are more steps involved in signing an app and distribution than there would be for an android app. Xcode is a great IDE but since you have probably never used it before, we will cover the way it is laid out and what specific things do.
 
-Each 'week' as we'll call it is in a separate branch with the format _Xth-Level_
 
-Each commit is a various step in the process so you can look back at the various stages of the project at any given time
+### Developer Portal
+[Apple Developer Portal](https://developer.apple.com/)
+
+
+*Logging in
+*Creating an App ID
+*Creating a Certificate
+*Provisioning Profiles
+**What do they do?
+**What types are there?
+**Creating Provisioning Profile
+
+### Xcode
+XCode is Apples IDE for creating iOS and OSX Applications. It also has source control to connect your app to a git repo to save your code. You can create a new app, develope the app, and even deploy the app from xcode.
+
+*Create a new App
+*Storyboards
+*Nibs
+*Programatic UI
+*Supporting Files
+*Schemes, Build Settings, Configurations
+
+### Assignments
+1. Create a signing cert request
+2. Create a new Developer Provisioning Profile
+3. Create a new Project in Xcode.
+4. Read [XCode IDE Overview](https://developer.apple.com/xcode/ide/)
+5. Read [Interface Builder Overview](hhttps://developer.apple.com/xcode/interface-builder/)
