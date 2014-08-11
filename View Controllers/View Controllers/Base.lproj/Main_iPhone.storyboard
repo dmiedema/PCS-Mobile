@@ -19,10 +19,28 @@
             </objects>
             <point key="canvasLocation" x="-619" y="139"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="5YA-ja-DkM">
+            <objects>
+                <viewController storyboardIdentifier="BlueController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GcU-AH-Pc0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5PU-WK-Uun"/>
+                        <viewControllerLayoutGuide type="bottom" id="yQl-hr-X1X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aGi-K8-89j">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.23137254900000001" green="0.67843137249999996" blue="0.99215686270000003" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="90g-BW-UUW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="557" y="138"/>
+        </scene>
         <!--My View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="MyViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vXZ-lx-hvc" customClass="MyViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -37,6 +55,9 @@
                                 <state key="normal" title="Push Somewhere Else">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="pushControllerButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xE4-fk-nZk"/>
+                                </connections>
                             </button>
                             <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y8G-Ge-FYE">
                                 <rect key="frame" x="69" y="269" width="183" height="30"/>
@@ -44,6 +65,9 @@
                                 <state key="normal" title="Change Background Color">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeBackgroundButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RNu-Rb-Z8h"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -55,6 +79,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="AGp-nx-Jfp"/>
+                    <connections>
+                        <outlet property="changeBackgroundButton" destination="y8G-Ge-FYE" id="GSs-LH-sQ8"/>
+                        <outlet property="pushControllerButton" destination="zKE-ev-EMJ" id="3l6-2g-uj3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

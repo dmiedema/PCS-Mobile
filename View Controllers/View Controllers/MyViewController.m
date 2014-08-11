@@ -14,36 +14,36 @@
 
 @implementation MyViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
+#pragma mark - View Life Cycle
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
 }
-*/
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+}
+
+#pragma mark - Actions
+- (IBAction)changeBackgroundButtonPressed:(UIButton *)sender {
+    self.view.backgroundColor = [UIColor redColor];
+}
+- (IBAction)pushControllerButtonPressed:(UIButton *)sender {
+    UIViewController *blueController = [self.storyboard instantiateViewControllerWithIdentifier:@"BlueController"];
+    [self.navigationController pushViewController:blueController animated:YES];
+}
 
 @end

@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface MyViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *changeBackgroundButton;
+@property (weak, nonatomic) IBOutlet UIButton *pushControllerButton;
 
 @end
