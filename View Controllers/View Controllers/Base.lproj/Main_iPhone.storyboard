@@ -19,10 +19,10 @@
             </objects>
             <point key="canvasLocation" x="-619" y="139"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="5YA-ja-DkM">
             <objects>
-                <viewController storyboardIdentifier="BlueController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GcU-AH-Pc0" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BlueController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GcU-AH-Pc0" customClass="SecondViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5PU-WK-Uun"/>
                         <viewControllerLayoutGuide type="bottom" id="yQl-hr-X1X"/>
@@ -30,8 +30,28 @@
                     <view key="view" contentMode="scaleToFill" id="aGi-K8-89j">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POu-A0-m2g">
+                                <rect key="frame" x="95" y="269" width="130" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Reset Nav Stack">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetNavStackPressed:" destination="GcU-AH-Pc0" eventType="touchUpInside" id="ogN-hT-Yge"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.23137254900000001" green="0.67843137249999996" blue="0.99215686270000003" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="POu-A0-m2g" secondAttribute="centerX" id="0U0-UJ-0ow"/>
+                            <constraint firstAttribute="centerY" secondItem="POu-A0-m2g" secondAttribute="centerY" id="A7R-vI-blS"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="resetNavStackButton" destination="POu-A0-m2g" id="hi5-vP-SdI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="90g-BW-UUW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

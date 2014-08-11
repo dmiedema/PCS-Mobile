@@ -23,6 +23,7 @@
 		546CC283199969F3005FC10B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 546CC281199969F3005FC10B /* InfoPlist.strings */; };
 		546CC285199969F3005FC10B /* View_ControllersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 546CC284199969F3005FC10B /* View_ControllersTests.m */; };
 		546CC29119996A1F005FC10B /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546CC29019996A1F005FC10B /* MyViewController.m */; };
+		546CC29419996C00005FC10B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546CC29319996C00005FC10B /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		546CC284199969F3005FC10B /* View_ControllersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View_ControllersTests.m; sourceTree = "<group>"; };
 		546CC28F19996A1F005FC10B /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		546CC29019996A1F005FC10B /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		546CC29219996C00005FC10B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		546CC29319996C00005FC10B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				546CC25D199969F2005FC10B /* Supporting Files */,
 				546CC28F19996A1F005FC10B /* MyViewController.h */,
 				546CC29019996A1F005FC10B /* MyViewController.m */,
+				546CC29219996C00005FC10B /* SecondViewController.h */,
+				546CC29319996C00005FC10B /* SecondViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546CC29419996C00005FC10B /* SecondViewController.m in Sources */,
 				546CC270199969F3005FC10B /* ViewController.m in Sources */,
 				546CC267199969F2005FC10B /* AppDelegate.m in Sources */,
 				546CC29119996A1F005FC10B /* MyViewController.m in Sources */,
