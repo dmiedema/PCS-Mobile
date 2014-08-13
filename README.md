@@ -4,7 +4,7 @@ PCS-Mobile
 Portland Code School Mobile stuff
 
 ## Developer Portal and Xcode Basics
-In this class we will cover the Apple developer portal and Xcode basics. The Apple developer portal is one of the most upsetting and frustrating parts of development but it is one of, if not the most important piece. Apple is big on security so there are more steps involved in signing an app and distributing than there are for an android app. Xcode is a great *[IDE]: Integrated Development Environment but since you have probably never used it before, we will cover the way it is laid out and what specific things do.
+In this class we will cover the Apple developer portal and Xcode basics. The Apple developer portal is one of the most upsetting and frustrating parts of development but it is one of, if not the most important piece. Apple is big on security so there are more steps involved in signing an app and distributing than there are for an android app. Xcode is a great IDE but since you have probably never used it before, we will cover the way it is laid out and what specific things do.
 
 
 ### Developer Portal
@@ -35,3 +35,7 @@ Xcode is Apples IDE for creating iOS and OSX Applications. It also has source co
 3. Create a new Project in Xcode.
 4. Read [XCode IDE Overview](https://developer.apple.com/xcode/ide/)
 5. Read [Interface Builder Overview](hhttps://developer.apple.com/xcode/interface-builder/)
+
+
+*[IDE]:  Integrated Development Environment
+
